@@ -1,0 +1,149 @@
+/* :root {
+  background: purple;
+}
+
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  color: red;
+}
+
+h1 {
+  color: rgb(102, 144, 102);
+}
+
+.box {
+  background: #b7b7b7;
+}
+
+h1,
+h2,
+button {
+  color: aquamarine;
+}
+
+.button {
+  background: red;
+  color: black;
+} */
+/* 
+.card-dark {
+  background: #b2b2b2;
+}
+
+.item {
+  color: green;
+}
+
+.item:last-of-type {
+  color: blue;
+}
+
+.item:only-of-type {
+  color: red;
+}
+
+.item:nth-last-child(3n + 1) {
+  color: rgb(36, 64, 82);
+} */
+
+/* .input-dark {
+  background: #565656;
+}
+
+.input-dark[required] {
+  background: #ff4545;
+}
+
+.input-dark[type='number'] {
+  background: #28e813;
+} */
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: green;
+}
+
+.link:active {
+  color: purple;
+}
+
+.card:active {
+  background-color: purple;
+}
+
+input {
+  background: gray;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.card:focus-within {
+  background-color: brown;
+}
+
+.card:lang(en) {
+  background-color: gainsboro;
+}
+button {
+  background-color: greenyellow;
+}
+
+button:enabled {
+  background-color: green;
+}
+
+button:disabled {
+  background-color: aqua;
+}
+
+.inp:read-write {
+  background-color: blue;
+}
+
+.inp:read-only {
+  background-color: red;
+}
+
+input[type='checkbox']:checked ~ span {
+  background-color: red;
+}
+
+.valid:invalid {
+  background-color: mediumaquamarine;
+}
+
+.valid:optional {
+  background-color: green;
+}
+
+.number:focus {
+  background-color: grey;
+}
+.number:out-of-range {
+  background-color: red;
+}
+.number:in-range {
+  background-color: green;
+}
+
+input:placeholder-shown ~ span {
+  background-color: pink;
+}
