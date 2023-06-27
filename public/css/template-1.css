@@ -143,3 +143,39 @@
   font-size: 19px;
   padding: 9px;
 }
+
+.card {
+  border: 2px solid blue;
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 10px 1px rgb(125, 41, 41);
+}
+
+.card:hover {
+  outline: 1px solid green;
+
+  outline-offset: 5px;
+}
+
+h1 {
+  text-shadow: 0px 0px 10px rgb(125, 41, 41);
+}
+
+.plans_card:nth-child(2) {
+  visibility: collaps;
+}
+
+p {
+  background-color: gray;
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+body {
+  background: red;
+}
+
+.page {
+  background-color: transparent;
+}
