@@ -288,3 +288,24 @@
 .link_item:hover {
   text-decoration: underline;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  align-content: flex-end;
+
+  height: 800px;
+
+  border: 1px solid red;
+}
+
+.flex-item {
+  width: 200px;
+  background: grey;
+  margin: 15px;
+}
