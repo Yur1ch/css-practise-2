@@ -313,6 +313,6 @@
 }
 
 .form_checkbox > label {
-  color: var(--color-title);
+  color: var(--color-text);
   font-size: var(--size-d);
 }
