@@ -2,7 +2,7 @@
     <div class="page_content">
 
         <header class="header">
-            {{> header }}
+            {{> headerDark }}
         </header>
 
 
@@ -34,25 +34,14 @@
             </div>
 
             <div class="articles_block">
-                {{#each articles}}
-                <div class="articles_block_card">
-
-                    <img class="articles_card_image" id="{{id}}" src="{{photo}}" alt="Article image">
-
-                    <div class="articles_card_title">{{name}}</div>
-
-                    <p class="articles_card_text">{{description}}</p>
-
-                    <button class="articles_card_button">Read All</button>
-                </div>
-                {{/each}}
+                {{> articleCardDark}}
             </div>
 
         </div>
 
 
         <footer class="footer">
-            {{> footer }}
+            {{> footerDark }}
         </footer>
     </div>
 </div>
