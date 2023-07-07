@@ -449,11 +449,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  transition: opacity 0.3s;
+  transition: opacity 0.4s;
 }
 
 .articles_card_button:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .articles_card_button:active {
