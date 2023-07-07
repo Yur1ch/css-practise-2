@@ -316,3 +316,11 @@
   color: var(--color-text);
   font-size: var(--size-d);
 }
+
+.advantages {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+
+  grid-template-rows: 1fr 2fr;
+}
